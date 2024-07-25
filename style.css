@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+}
+.main{
+    background-color: rgb(60, 64, 198);
+    background-image: url(https://flatuicolors.com/static/img/stars-opacity.0979c1.svg);
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-top{
+    letter-spacing: 1px;
+    height: 15vh;
+    color: white;
+    font-weight: 700;
+    font-size: 1.67rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72.84vw;
+}
+.main-top-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.06250rem;
+    font-weight: 600;
+    width: 25vw;
+    margin-top: 1%;
+}
+.hover1:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.button-top{
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    font-size: 0.875rem;
+    padding:2px 4px 2px 6px;
+}
+@media screen and (max-width:425px) {
+    .main-top-mid{
+        display: none;
+    }
+    .main-top{
+        font-size: 2.5rem;
+        height: 30vh;
+        justify-content: flex-start;
+        margin-left: -10%;
+    }
+}
+@media screen and (max-width:320px){
+    .main-top{
+        font-size: 2rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-top-mid{
+        font-size: 0.9rem;
+        width: 38vw;
+    }
+    .main-top{
+        font-size: 1.1rem;
+        margin-right: 10px;
+        margin-left:0 ;
+
+        width: 85vw;
+    }
+    .button-top{
+        padding:3px 4px;
+        font-size: 0.7rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .main-top{
+        width: 65vw;
+        font-size: 1.2rem;
+    }
+    .main-top-mid{
+        font-size:13px;
+        width: 26vw;
+    }
+    .button-top{
+        padding: 1.5px 2px;
+    }
+}
+@media screen and (min-width:2560px){
+    .main-top{
+        font-size: 2rem;
+        width: 40vw;
+    }
+    .main-top-mid{
+        font-size: 1.3rem;
+        width: 16vw;
+        justify-content: space-between;
+    }
+    .hover1{
+        display: flex;
+        align-items: center;
+    }
+    .button-top{
+        font-weight: 700;
+        letter-spacing: 1px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        padding:3px 4px;
+        margin-left: 8px;
+    }
+}
+@media (min-width:1025px) and (max-width:2559px){
+    .main-top-mid{
+        font-size: 1rem;
+        width: 22.5vw;
+    }
+    .main-top{
+        width:70vw;
+        margin-left: 20px;
+        font-size: 1.4rem;
+    }
+    .button-top{
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        color: white;
+        font-size: 0.875rem;
+        padding:1.5px 3px;
+    }
+}
