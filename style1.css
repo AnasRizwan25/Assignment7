@@ -1,11 +1,16 @@
 .main1{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 60px;
     row-gap: 30px;
-    width: 100%;
     margin-top: 2%;
+    background-color: rgb(60, 64, 198);
+    padding-bottom: 20px;
+}
+html{
+    height: 100vh;
+    
     background-color: rgb(60, 64, 198);
 }
 .main-middle{
@@ -28,27 +33,24 @@
 .main-middle-txt p{
     font-weight: 600;
 }
-@media screen and (min-width:2560px) {
+  @media screen and (min-width:2560px) {
     .main1{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        column-gap: 60px;
-        row-gap: 30px;
-        width: 100%;
-        margin-top: 2%;
-        background-color: rgb(60, 64, 198);
+        
         width: 50vw;
         position: absolute;
         left: 25%;
     }
 }
-@media (min-width:1440px) and (max-width:2559px) {
-  .main1{
-    width: 80vw;
-    position: absolute;
-    left: 10vw;
-    margin-top: 2%;
-  }
+@media (min-width:1440px) and (max-width:1600px){
+    .main1{
+        width: 75vw;
+        display: flex;
+        position: absolute;
+        left: 13.5%;
+        justify-content: center;
+        column-gap: 60px;
+        row-gap: 30px;
+        margin-top: 2%;
+        background-color: rgb(60, 64, 198);
+    }
 }

@@ -1,0 +1,88 @@
+.a{
+ background-color: white;   
+ width: 68vw;
+ height: 80px;
+ border-radius: 4px;
+ flex-wrap: wrap;
+ padding: 0.5rem;
+ flex-wrap: wrap;
+}
+.b{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.c p{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.d{
+    margin-top: 1rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+}
+@media screen and (max-width:320px) {
+    .a{
+        text-align: justify;
+        height: 230px;
+    }
+    .d{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:375px) {
+    .a{
+        text-align: justify;
+        height: 20px;
+    }
+    .d{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:425px) {
+    .a{
+        text-align: justify;
+        height: 180px;
+    }
+}
+@media screen and (min-width:768px) {
+    .a{
+        width: 85vw;
+        text-align: justify;
+        height: 110px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .a{
+        width: 64vw;
+        text-align: justify;
+        height: 100px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .a{
+        width: 68vw;
+        text-align: justify;
+        height: 100px;
+    }
+}
+@media screen and (min-width:2560px) {
+    .a{
+        width: 40vw;
+        text-align: justify;
+        height: 110px;
+    }
+    .d{
+        font-size: 18px;
+    }
+    .c p{
+        font-size: 1.2rem;
+    }
+}
